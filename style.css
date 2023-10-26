@@ -1,0 +1,94 @@
+/* green: #006340 */
+html{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    color: #006340;
+    border-bottom: solid 2px gray;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#stockz{
+    font-size: 50px;
+    margin: 20px;
+    margin-left: 5%;
+    font-family: 'Righteous', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    justify-self: right;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.navLink{
+    color: black;
+    padding: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#footer1{
+    /* display: flex; */
+    color: white;
+    background-color: #242424;
+    padding: 5px;
+    
+}
+
+#footer2{
+    /* display: flex; */
+    color: white;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.fIcon{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+#f1{
+    font-size: 25px;
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#f2{
+    display: flex;
+    width: 70%;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+.f3{
+    display: flex;
+    justify-content: center;
+}
+
+.footLink{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    width: 250px;
+}
