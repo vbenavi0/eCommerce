@@ -14,7 +14,6 @@ header{
     color: #006340;
     border-bottom: solid 2px #242424;;
     width: 100%;
-    margin-bottom: 10px;
 }
 
 #stockz{
@@ -42,6 +41,7 @@ nav{
     padding-right: 10px;
     justify-content: center;
     text-decoration: none;
+    max-width: 20%;
 }
 
 #about{
@@ -52,13 +52,22 @@ nav{
 }
 
 #hero{
+    display: flex;
     justify-content: center;
     text-align: center;
 }
 
-#heroImg{
+#hiddenImg{
     width: 100%;
-    max-height: 1000px;
+    height: auto;
+}
+
+.heroImg{
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    position: absolute;
+    opacity: 0;
 }
 
 #footer1{
@@ -106,11 +115,27 @@ nav{
     justify-content: center;
 }
 
+.footLinkBold{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footLinkBold:hover{
+    text-decoration: underline;
+}
+
 .footLink{
     text-align: left;
     color: white;
     text-decoration: none;
-    margin: 5px;
+    margin: 10px;
+    margin-left: 0;
 }
 
 .footLink:hover{
@@ -120,5 +145,5 @@ nav{
 
 .fBlock{
     display: block;
-    width: 300px;
+    width: 20%;
 }
