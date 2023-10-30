@@ -1,7 +1,6 @@
 /* green: #006340 */
 html{
     font-family: sans-serif;
-    /* background-color: #F4F3F1; */
     background-color: #fff9ec;
 }
 
@@ -119,7 +118,6 @@ nav{
 }
 
 #footer1{
-    /* display: flex; */
     color: white;
     background-color: #242424;
     padding: 5px;
@@ -128,7 +126,6 @@ nav{
 }
 
 #footer2{
-    /* display: flex; */
     color: white;
     background-color: black;
     justify-content: center;
@@ -265,11 +262,7 @@ nav{
     font-weight: bold;
 }
 
-.faqAns{
-}
-
 #supForm{
-    /* display: flex; */
     width: 500px;
     background-color: #006340;
     margin: auto;
