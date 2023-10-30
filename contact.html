@@ -44,8 +44,9 @@
         </section>
         <br>
         <section>
-            <form id = 'supForm'>
+            <form id = 'supForm' onsubmit="event.preventDefault(); formSubmit();">
                 <p>Support Form</p>
+                <p id = 'warning'></p>
                 <label for="uName">Name</label><br>
                 <input id = 'uName' type="text" placeholder="Your Name"><br>
                 <label for="uEmail">Email</label><br>
@@ -113,6 +114,6 @@
         </div>
     </footer>
 
-    <!-- <script src="script.js"></script>  -->
+    <script src="script.js"></script>
 </body>
 </html>
