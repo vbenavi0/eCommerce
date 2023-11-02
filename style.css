@@ -53,6 +53,7 @@ nav{
     max-width: 20%;
     margin: auto;
     transition: all 500ms;
+    border-radius: 10px;
 }
 
 .navLink:hover{
@@ -79,6 +80,7 @@ nav{
     margin-top: auto;
     margin-bottom: auto;
     transition: all 500ms;
+    border-radius: 10px;
 }
 
 .material-symbols-outlined:hover{
@@ -204,6 +206,7 @@ nav{
     margin: auto;
     padding: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .pageHead p{
@@ -250,6 +253,7 @@ nav{
     border: none;
     padding: 10px;
     transition: all  250ms;
+    border-radius: 10px;
 }
 
 .buy:hover{
@@ -262,6 +266,7 @@ nav{
     margin: auto;
     border: 2px solid black;
     text-align: center;
+    border-radius: 10px;
 }
 
 #faqHead{
@@ -282,6 +287,7 @@ nav{
     font-size: 30px;
     padding: 10px;
     border: 2px solid black;
+    border-radius: 10px;
 }
 
 #supForm label{
@@ -300,16 +306,23 @@ nav{
     text-align: center;
     border: 2px solid black;
     line-height: 2;
+    border-radius: 10px;
+    transition: all 500ms;
 }
 
 #supForm input::placeholder{
     color: black;
 }
 
+#supForm input:hover{
+    box-shadow: 1px 1px 10px black;
+}
+
 #warning{
     color: red;
     background-color: white;
     font-size: 15px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width:750px){ /* Resizing for phone screens */

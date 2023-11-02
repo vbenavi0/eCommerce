@@ -8,6 +8,9 @@ let uQuestion;
 let uComment;
 let warning;
 
+let cart = [];
+let subTotal = 0;
+
 function changeHero(){
     document.getElementById('hiddenImg').style.opacity = 0;
     heroId = 'hero' + index;
@@ -53,4 +56,23 @@ function formSubmit(){
         document.getElementById('warning').innerHTML = "";
         alert(`Successfully Submitted: Name: ${uName}, Email: ${uEmail}, Question: ${uQuestion}, Comment: ${uComment}`);
     }
+}
+
+function addToCart(item){
+    cart.push(item);
+    alert('Added to shopping cart.')
+}
+
+function showCart(){
+    console.log('show '+ cart);
+    let docCart = document.getElementById('cart');
+    cart.forEach(item=>{
+        newItem = document.createElement("div");
+        newItem.innerHTML = ''
+
+    })
+}
+
+if (window.location.pathname.includes('/cart.html')){
+    showCart();
 }
