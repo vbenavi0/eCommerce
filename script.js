@@ -75,10 +75,12 @@ function showCart(){ //shows or hides cart
     var cartEl = document.getElementById('cart');
     if(counter%2 === 0){
         document.getElementById('cart').style.zIndex ='1';
+        document.getElementById('cart').style.width ='80%';
         counter++
     }
     else if(counter%2 === 1){
         document.getElementById('cart').style.zIndex =-'1';
+        document.getElementById('cart').style.width ='0%';
         counter++
     }
 }

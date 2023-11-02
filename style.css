@@ -330,12 +330,13 @@ nav{
     color: white;
     background-color: #006340;
     position: fixed;
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    width: 0%;
+    left: 10%;
+    right: auto;
     text-align: center;
     justify-content: center;
+    justify-self: center;
+    align-self: center;
     z-index: -1;
     transition: all 500ms ease-in-out;
     border-radius: 10px;
