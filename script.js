@@ -37,7 +37,7 @@ function formSubmit(){ //form validation
     uEmail = document.getElementById('uEmail');
     uQuestion = document.getElementById('uQuestion');
     uComment = document.getElementById('uComment');
-    if(document.getElementById('uName').value === ''){
+    if(document.getElementById('uName').value === ''){ //If no name is entered
         warning += '[Please enter your name] ';
         document.getElementById('warning').innerHTML = warning;
         uName.style.borderColor = 'red';
@@ -46,7 +46,7 @@ function formSubmit(){ //form validation
         uName.style.borderColor = 'green';
     }
 
-    if(document.getElementById('uEmail').value === '' || document.getElementById('uEmail').value.includes('@') === false || document.getElementById('uEmail').value.includes('.com') === false){
+    if(document.getElementById('uEmail').value === '' || document.getElementById('uEmail').value.includes('@') === false || document.getElementById('uEmail').value.includes('.com') === false){ //if email is entered incorrectly
         warning += '[Please enter a valid email] ';
         document.getElementById('warning').innerHTML = warning;
         uEmail.style.borderColor = 'red';
@@ -75,12 +75,12 @@ function formSubmit(){ //form validation
     }
 }
 
-function showSubmit(){
+function showSubmit(){ //Show User Submission
     document.getElementById('submission').style.zIndex ='1';
     document.getElementById('submission').style.width ='80%';
 }
 
-function hideSubmit(){
+function hideSubmit(){ //Hides User Submission
     document.getElementById('submission').style.zIndex ='-1';
     document.getElementById('submission').style.width ='0%';
 }
@@ -99,12 +99,12 @@ function addToCart(item, price){ //Adds items to cart
     setTimeout(hideCartAdd, 2000);
 }
 
-function showCartAdd(){
+function showCartAdd(){ //Show pop-up for adding item to cart
     document.getElementById('addToCart').style.zIndex ='1';
     document.getElementById('addToCart').style.width ='80%';
 }
 
-function hideCartAdd(){
+function hideCartAdd(){ //Hide pop-up
     document.getElementById('addToCart').style.zIndex ='-1';
     document.getElementById('addToCart').style.width ='0%';
 }
