@@ -63,6 +63,7 @@ nav{
 }
 
 .material-symbols-outlined {
+    background-color: whitesmoke;
     color: black;
     font-size: 20px;
     padding: 17px;
@@ -91,7 +92,7 @@ nav{
 
 #about{
     background-color: #006340;
-    color: #fff9ec;
+    color: white;
     text-align: center;
     padding: 10px;
 }
@@ -322,6 +323,21 @@ nav{
     color: red;
     background-color: white;
     font-size: 15px;
+    border-radius: 10px;
+}
+
+#cart{
+    color: white;
+    background-color: #006340;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    z-index: -1;
+    transition: all 500ms ease-in-out;
     border-radius: 10px;
 }
 
