@@ -20,11 +20,18 @@
             <a class = 'navLink' href="electronics.html">Electronics</a>
             <a class = 'navLink' href="collectibles.html">Collectibles</a>
             <a class = 'navLink' href="contact.html">Contact</a>
-            <a class="material-symbols-outlined" href="cart.html">shopping_cart</a>
+            <button class="material-symbols-outlined" onclick="showCart()">shopping_cart</button>
         </nav>
     </header>
 
     <main>
+        <section id = 'cart'>
+            <h2>Shopping Cart:</h2>
+            <h3 id = 'subTotal'>Subtotal: 0</h3>
+            <br>
+            
+            <br>
+        </section>
         <br>
         <section class = 'pageHead'>
             <p>Electronics</p>
@@ -36,84 +43,84 @@
               <p class = 'title'>Sony PlayStation 5</p>
               <p class="disc">Blue Ray Edition</p>
               <p class = 'price'>$500.00</p>
-              <button class = 'buy'>Add to Cart</button>
+              <button class = 'buy' onclick="addToCart('PlayStation 5 Blue Ray Edition', 500.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'PS5D'> <!-- Product -->
                 <img class = 'pImg' src = 'images/PS5D.png' alt = 'PlayStation 5 Digital Edition'>
                 <p class = 'title'>Sony PlayStation 5</p>
                 <p class="disc">Digital Edition</p>
                 <p class = 'price'>$400.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('PlayStation 5 Digital Edition', 400.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'PS5S'> <!-- Product -->
                 <img class = 'pImg' src = 'images/PS5S.png' alt = 'PlayStation 5 Spiderman 2 Bundle'>
                 <p class = 'title'>Sony PlayStation 5</p>
                 <p class="disc">Spiderman 2 Bundle</p>
                 <p class = 'price'>$600.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('PlayStation 5 Spiderman 2 Bundle', 600.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'PS5G'> <!-- Product -->
                 <img class = 'pImg' src = 'images/PS5G.png' alt = 'PlayStation 5 God of War Rognorok Bundle'>
                 <p class = 'title'>Sony PlayStation 5</p>
                 <p class="disc">God of War Rognorok Bundle</p>
                 <p class = 'price'>$560.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('PlayStation 5 God of War Rognorok Bundle', 560.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'MXX'> <!-- Product -->
                 <img class = 'pImg' src = 'images/MXX.png' alt = 'Xbox Series X'>
                 <p class = 'title'>Microsoft Xbox</p>
                 <p class="disc">Series X</p>
                 <p class = 'price'>$500.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('Xbox Series X', 500.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'MXS'> <!-- Product -->
                 <img class = 'pImg' src = 'images/MXS.png' alt = 'Xbox Series S'>
                 <p class = 'title'>Microsoft Xbox</p>
                 <p class="disc">Series S</p>
                 <p class = 'price'>$300.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('Xbox Series S', 300.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'MXD'> <!-- Product -->
                 <img class = 'pImg' src = 'images/MXD.png' alt = 'Xbox Series X Diable IV Bundle'>
                 <p class = 'title'>Microsoft Xbox</p>
                 <p class="disc">Series X Diablo IV Bundle</p>
                 <p class = 'price'>$550.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('Xbox Series X Diable IV Bundle', 550.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'MXH'> <!-- Product -->
                 <img class = 'pImg' src = 'images/MXH.png' alt = 'Xbox Series X Halo Infinite Bundle'>
                 <p class = 'title'>Microsoft Xbox</p>
                 <p class="disc">Xbox Series X Halo Infinite Bundle</p>
                 <p class = 'price'>$550.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('Xbox Series X Halo Infinite Bundle', 550.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'NSW'> <!-- Product -->
                 <img class = 'pImg' src = 'images/NSW.png' alt = 'Nintendo Switch Oled White'>
                 <p class = 'title'>Nintendo Switch Oled</p>
                 <p class="disc">White</p>
                 <p class = 'price'>$350.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('Nintendo Switch Oled White', 350.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'NSRB'> <!-- Product -->
                 <img class = 'pImg' src = 'images/NSRB.png' alt = 'Nintendo Switch Oled Red and Blue'>
                 <p class = 'title'>Nintendo Switch Oled</p>
                 <p class="disc">Red and Blue</p>
                 <p class = 'price'>$350.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('Nintendo Switch Oled Red and Blue', 350.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'NSS'> <!-- Product -->
                 <img class = 'pImg' src = 'images/NSS.png' alt = 'Nintendo Switch Oled Splatoon 3 Bundle'>
                 <p class = 'title'>Nintendo Switch Oled</p>
                 <p class="disc">Splatoon 3 Bundle</p>
                 <p class = 'price'>$360.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('Nintendo Switch Oled Splatoon 3 Bundle', 360.00)">Add to Cart</button>
             </div>
             <div class = 'product' id = 'NSZ'> <!-- Product -->
                 <img class = 'pImg' src = 'images/NSZ.png' alt = 'Nintendo Switch Oled Zelda Bundle'>
                 <p class = 'title'>Nintendo Switch Oled</p>
                 <p class="disc">Tears of the Kingdom Bundle</p>
                 <p class = 'price'>$360.00</p>
-                <button class = 'buy'>Add to Cart</button>
+                <button class = 'buy' onclick="addToCart('Nintendo Switch Oled Zelda Bundle', 360.00)">Add to Cart</button>
             </div>
           </section>
     </main>
@@ -171,6 +178,6 @@
         </div>
     </footer>
 
-    <!-- <script src="script.js"></script>  -->
+    <script src="script.js"></script>
 </body>
 </html>
