@@ -329,7 +329,7 @@ nav{
 #cart{
     color: white;
     background-color: #006340;
-    position: fixed;
+    position: absolute;
     width: 0%;
     left: 10%;
     right: auto;
