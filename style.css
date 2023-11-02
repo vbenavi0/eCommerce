@@ -198,7 +198,10 @@ nav{
     height: auto;
 }
 
-.pageHead{
+h4{
+    margin: auto;
+    font-size: 30px;
+    font-weight: 500;
     display: flex;
     color: white;
     background-color:#006340;
@@ -208,12 +211,8 @@ nav{
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-}
-
-.pageHead p{
-    margin: auto;
-    font-size: 30px;
-    font-weight: 500;
+    text-align: center;
+    justify-content: center;
 }
 
 .grid1{
@@ -326,6 +325,26 @@ nav{
     border-radius: 10px;
 }
 
+#submission{
+    position: fixed;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    color: white;
+    background-color:#006340;
+    width: 0%;
+    left: 10%;
+    top: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    z-index: -1;
+    transition: all 500ms ease-in-out;
+    border-radius: 10px;
+}
+
 #cart{
     color: white;
     background-color: #006340;
@@ -337,6 +356,26 @@ nav{
     justify-content: center;
     justify-self: center;
     align-self: center;
+    z-index: -1;
+    transition: all 500ms ease-in-out;
+    border-radius: 10px;
+}
+
+#addToCart{
+    position: fixed;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    color: white;
+    background-color:#006340;
+    width: 0%;
+    left: 10%;
+    top: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
     z-index: -1;
     transition: all 500ms ease-in-out;
     border-radius: 10px;
